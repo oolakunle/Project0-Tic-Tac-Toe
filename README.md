@@ -1,47 +1,23 @@
-# Project 0
+# Project 0 - Tic Tac Toe
 
-Some **regular** text
+## About
 
-Some *more* regular _text_
+This project is about creating Tic Tac Toe using basic HTML, CSS and Javascript. Each player takes turn in playing, and whoever gets vertical, horizontal or diagonal grids connected, wins the game.
 
-This is a ***new*** paragraph.
+## Built With
+* HTML
+* CSS
+* Javascript
 
-## Lists
 
-* list item
-* second item
-  * sub item
-  * sub item two
+## Author
 
-### Marx Brothers
-1. Groucho
-2. Harpo
-1. Chico
+* `Abdulmajeed Yusuf` - [Twitter](http:twitter.com/oolakunle)
 
-![Bill Murray](http://fillmurray.com/50/70)
+## License
 
-http://twitter.com
+This project is licensed under the MIT License
 
-[Twitter](http:twitter.com)
-
-To quote someone famous:
-
->Famous inspirational quote
-
-You should use the `<section>` tag.
-
-There are too many variables called `scored` in this project.
-
-## Github Flavoured Markdown
-
-### Function expression example
-
-```
-const sayHello = function () {
-  console.log('Hello');
-}
-```
-
-@coldhead                        >tag people
-
-~~this is struck out~~ updated docs.
+## Acknowledgment
+* Gratitude to Joel, John and Theo for guidance.
+* Thanks to the various YouTubers I watched to help better undrstand the algorithm behind the project.
