@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
+body {
+  background-size: cover;
+  text-align: center;
+}
+
+.animate.wobble {
+  text-align: center;
+  font-family: 'Rozha One', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+
+}
+
+#box {
+  width: 308px;
+  height: 302px;
+  border: 1px solid blue;
+  text-align: center;
+  margin: auto;
+}
+
+input {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 70px;
+}
+
+#buttonReset {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 30px;
+  background-color: rgba(75, 199, 206, 0.63);
+}
