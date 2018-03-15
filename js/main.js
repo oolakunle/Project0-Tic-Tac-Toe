@@ -98,5 +98,4 @@ const reset = function () {
   document.getElementById("button6").disabled = "";
   document.getElementById("button7").disabled = "";
   document.getElementById("button8").disabled = "";
-  console.log("Hello");
 };
