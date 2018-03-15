@@ -20,57 +20,25 @@ const clickButton = function (button) {
 // Check for the winner of the game according to the position.
 
 const winner = function () {
-  if (document.getElementById("button0").value === "X" &&
-      document.getElementById("button1").value === "X" &&
-      document.getElementById("button2").value === "X" ||
-      document.getElementById("button3").value === "X" &&
-      document.getElementById("button4").value === "X" &&
-      document.getElementById("button5").value === "X" ||
-      document.getElementById("button6").value === "X" &&
-      document.getElementById("button7").value === "X" &&
-      document.getElementById("button8").value === "X" ||
-      document.getElementById("button0").value === "X" &&
-      document.getElementById("button3").value === "X" &&
-      document.getElementById("button6").value === "X" ||
-      document.getElementById("button1").value === "X" &&
-      document.getElementById("button4").value === "X" &&
-      document.getElementById("button7").value === "X" ||
-      document.getElementById("button2").value === "X" &&
-      document.getElementById("button5").value === "X" &&
-      document.getElementById("button8").value === "X" ||
-      document.getElementById("button0").value === "X" &&
-      document.getElementById("button4").value === "X" &&
-      document.getElementById("button8").value === "X" ||
-      document.getElementById("button2").value === "X" &&
-      document.getElementById("button4").value === "X" &&
-      document.getElementById("button6").value === "X"
+  if (document.getElementById("button0").value === "X" && document.getElementById("button1").value === "X" && document.getElementById("button2").value === "X" ||
+      document.getElementById("button3").value === "X" && document.getElementById("button4").value === "X" && document.getElementById("button5").value === "X" ||
+      document.getElementById("button6").value === "X" && document.getElementById("button7").value === "X" && document.getElementById("button8").value === "X" ||
+      document.getElementById("button0").value === "X" && document.getElementById("button3").value === "X" && document.getElementById("button6").value === "X" ||
+      document.getElementById("button1").value === "X" && document.getElementById("button4").value === "X" && document.getElementById("button7").value === "X" ||
+      document.getElementById("button2").value === "X" && document.getElementById("button5").value === "X" && document.getElementById("button8").value === "X" ||
+      document.getElementById("button0").value === "X" && document.getElementById("button4").value === "X" && document.getElementById("button8").value === "X" ||
+      document.getElementById("button2").value === "X" && document.getElementById("button4").value === "X" && document.getElementById("button6").value === "X"
   ) {
     alert("Player 1 won!!!");
     reset();
-  } else if (document.getElementById("button0").value === "O" &&
-        document.getElementById("button1").value === "O" &&
-        document.getElementById("button2").value === "O" ||
-        document.getElementById("button3").value === "O" &&
-        document.getElementById("button4").value === "O" &&
-        document.getElementById("button5").value === "O" ||
-        document.getElementById("button6").value === "O" &&
-        document.getElementById("button7").value === "O" &&
-        document.getElementById("button8").value === "O" ||
-        document.getElementById("button0").value === "O" &&
-        document.getElementById("button3").value === "O" &&
-        document.getElementById("button6").value === "O" ||
-        document.getElementById("button1").value === "O" &&
-        document.getElementById("button4").value === "O" &&
-        document.getElementById("button7").value === "O" ||
-        document.getElementById("button2").value === "O" &&
-        document.getElementById("button5").value === "O" &&
-        document.getElementById("button8").value === "O" ||
-        document.getElementById("button0").value === "O" &&
-        document.getElementById("button4").value === "O" &&
-        document.getElementById("button8").value === "O" ||
-        document.getElementById("button2").value === "O" &&
-        document.getElementById("button4").value === "O" &&
-        document.getElementById("button6").value === "O"
+  } else if (document.getElementById("button0").value === "O" && document.getElementById("button1").value === "O" && document.getElementById("button2").value === "O" ||
+        document.getElementById("button3").value === "O" && document.getElementById("button4").value === "O" && document.getElementById("button5").value === "O" ||
+        document.getElementById("button6").value === "O" && document.getElementById("button7").value === "O" && document.getElementById("button8").value === "O" ||
+        document.getElementById("button0").value === "O" && document.getElementById("button3").value === "O" && document.getElementById("button6").value === "O" ||
+        document.getElementById("button1").value === "O" && document.getElementById("button4").value === "O" && document.getElementById("button7").value === "O" ||
+        document.getElementById("button2").value === "O" && document.getElementById("button5").value === "O" && document.getElementById("button8").value === "O" ||
+        document.getElementById("button0").value === "O" && document.getElementById("button4").value === "O" && document.getElementById("button8").value === "O" ||
+        document.getElementById("button2").value === "O" && document.getElementById("button4").value === "O" && document.getElementById("button6").value === "O"
   ) {
     alert("Player 2 won!!!");
     reset();
