@@ -8,18 +8,18 @@ const clickButton = function (button) {
     document.getElementById(button).disabled = "disabled";
     // Alternate between Player 1 and 2.
     player += 1;
-    winner();
+    checkForWin();
   } else {
     document.getElementById(button).value = "O";
     document.getElementById(button).disabled = "disabled";
     player -= 1;
-    winner();
+    checkForWin();
   }
 
 };
 // Check for the winner of the game according to the position.
 
-const winner = function () {
+const checkForWin = function () {
   if (document.getElementById("button0").value === "X" && document.getElementById("button1").value === "X" && document.getElementById("button2").value === "X" ||
       document.getElementById("button3").value === "X" && document.getElementById("button4").value === "X" && document.getElementById("button5").value === "X" ||
       document.getElementById("button6").value === "X" && document.getElementById("button7").value === "X" && document.getElementById("button8").value === "X" ||
@@ -57,13 +57,4 @@ const reset = function () {
   document.getElementById("button6").value = "";
   document.getElementById("button7").value = "";
   document.getElementById("button8").value = "";
-  document.getElementById("button0").disabled = "";
-  document.getElementById("button1").disabled = "";
-  document.getElementById("button2").disabled = "";
-  document.getElementById("button3").disabled = "";
-  document.getElementById("button4").disabled = "";
-  document.getElementById("button5").disabled = "";
-  document.getElementById("button6").disabled = "";
-  document.getElementById("button7").disabled = "";
-  document.getElementById("button8").disabled = "";
 };
