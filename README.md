@@ -9,6 +9,9 @@ This project is about creating Tic Tac Toe using basic HTML, CSS and Javascript.
 * CSS
 * Javascript
 
+## Access
+The project can be accessed at [Project 0](https://oolakunle.github.io/Project0-Tic-Tac-Toe/)
+
 
 ## Author
 
